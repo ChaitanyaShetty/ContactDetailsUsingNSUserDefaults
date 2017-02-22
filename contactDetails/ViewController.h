@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *nameTF;
+@property (weak, nonatomic) IBOutlet UITextField *addressTF;
+@property (weak, nonatomic) IBOutlet UITextField *phonenumberTF;
+- (IBAction)DoneButton:(id)sender;
 
 
 @end

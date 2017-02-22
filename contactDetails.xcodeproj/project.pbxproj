@@ -16,6 +16,8 @@
 		52B1BF0C1E1FEAC200F95273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B1BF0A1E1FEAC200F95273 /* LaunchScreen.storyboard */; };
 		52B1BF171E1FEAC200F95273 /* contactDetailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1BF161E1FEAC200F95273 /* contactDetailsTests.m */; };
 		52B1BF221E1FEAC200F95273 /* contactDetailsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1BF211E1FEAC200F95273 /* contactDetailsUITests.m */; };
+		52B1BF311E1FEE9600F95273 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1BF301E1FEE9600F95273 /* ViewController2.m */; };
+		52B1BF371E1FF56F00F95273 /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B1BF361E1FF56F00F95273 /* ContactInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		52B1BF1D1E1FEAC200F95273 /* contactDetailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactDetailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B1BF211E1FEAC200F95273 /* contactDetailsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contactDetailsUITests.m; sourceTree = "<group>"; };
 		52B1BF231E1FEAC200F95273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B1BF2F1E1FEE9600F95273 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		52B1BF301E1FEE9600F95273 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		52B1BF351E1FF56F00F95273 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		52B1BF361E1FF56F00F95273 /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 				52B1BEFD1E1FEAC100F95273 /* AppDelegate.m */,
 				52B1BEFF1E1FEAC100F95273 /* ViewController.h */,
 				52B1BF001E1FEAC100F95273 /* ViewController.m */,
+				52B1BF351E1FF56F00F95273 /* ContactInfo.h */,
+				52B1BF361E1FF56F00F95273 /* ContactInfo.m */,
+				52B1BF2F1E1FEE9600F95273 /* ViewController2.h */,
+				52B1BF301E1FEE9600F95273 /* ViewController2.m */,
 				52B1BF021E1FEAC100F95273 /* Main.storyboard */,
 				52B1BF081E1FEAC200F95273 /* Assets.xcassets */,
 				52B1BF0A1E1FEAC200F95273 /* LaunchScreen.storyboard */,
@@ -276,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1BF371E1FF56F00F95273 /* ContactInfo.m in Sources */,
 				52B1BF011E1FEAC100F95273 /* ViewController.m in Sources */,
 				52B1BF071E1FEAC200F95273 /* contactDetails.xcdatamodeld in Sources */,
+				52B1BF311E1FEE9600F95273 /* ViewController2.m in Sources */,
 				52B1BEFE1E1FEAC100F95273 /* AppDelegate.m in Sources */,
 				52B1BEFB1E1FEAC100F95273 /* main.m in Sources */,
 			);
